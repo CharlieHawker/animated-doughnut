@@ -1,0 +1,42 @@
+{
+  "name": "animated-doughnut",
+  "title": "Animated Doughnut",
+  "description": "Responsive, animated doughnut charts on HTML5 canvas",
+  "version": "0.0.1",
+  "main": "dist/animated-doughnut.js",
+  "scripts": {
+    "build": "npm install && gulp",
+    "start": "gulp watch",
+    "test": "gulp && gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlieHawker/animated-doughnut.git"
+  },
+  "keywords": [
+    "doughnut",
+    "chart",
+    "animated",
+    "canvas",
+    "browser"
+  ],
+  "bugs": {
+    "url": "https://github.com/CharlieHawker/animated-doughnut/issues"
+  },
+  "author": {
+    "name": "Charlie Hawker",
+    "url": "https://charliehawker.com/"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/CharlieHawker/animated-doughnut",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.2",
+    "gulp-watch": "^4.3.5",
+    "jshint": "^2.9.1"
+  }
+}

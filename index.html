@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animated Doughnut</title>
+  <style type="text/css">
+  .container {
+    width: 800px;
+    min-height: 500px;
+    margin: 0 auto;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <canvas id="doughnut"></canvas>
+  </div>
+  <script src="src/animated-doughnut.js"></script>
+  <script>
+  var el = document.getElementById('doughnut');
+  el.dataset.animatedDoughnut = new AnimatedDoughnut.Chart(el, {data: [{value: 123}, {value: 62}, {value: 100}]});
+  </script>
+</body>
+</html>
